@@ -1,0 +1,53 @@
+.root {
+    position: relative;
+    max-width: 400px;
+    margin-left: -300px;
+    
+
+    @media(max-width: 1250px) {
+        box-sizing: content-box;
+        
+        
+      }
+}
+
+.input {
+    width: 100%;
+    padding: 10px 40px;
+    font-size: 16px;
+    border: 2px solid rgba(102, 102, 102, 0.493);
+    opacity: 0.7;
+    border-radius: 10px;
+    
+    position: absolute;
+    z-index: 3;
+
+    
+
+
+    &:hover {
+        border: 2px solid rgba(48, 48, 48, 0.904);
+        box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
+    }
+}
+
+.iconSearch{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 10px;
+    right: 270px;
+    z-index: 5;
+    
+}
+
+.deleteIcon {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    z-index: 5;
+    opacity: 0.8;
+}
